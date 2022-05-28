@@ -6,5 +6,5 @@ The website is made responsive with Bootstrap and all the logic was built with j
 # Technologies used
 * HTML
 * CSS
-* Bootstap
+* Bootstrap
 * JavaScript
