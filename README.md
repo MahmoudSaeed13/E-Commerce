@@ -4,7 +4,7 @@ This project is an e-commerce website where users can register, login, add produ
 The website is made responsive with Bootstrap and all the logic was built with javaScript.
 
 # Technologies used
-    * HTML
-    * CSS
-    * Bootstap
-    * JavaScript
+* HTML
+* CSS
+* Bootstap
+* JavaScript
