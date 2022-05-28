@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/signup.css" />
+    <link rel="shortcut icon" href="./imgs/dark-logo.png" type="image/x-icon" />
+    <title>Clothing : Log In</title>
+  </head>
+  <body>
+    <img src="./imgs/loader.gif" class="loader" />
+    <div class="alert-box">
+      <img src="./imgs/error.png" class="alert-img" />
+      <p class="alert-msg">error message</p>
+    </div>
+    <div class="container d-flex flex-column align-items-center">
+      <a href="index.html"><img src="./imgs/dark-logo.png" class="logo" /></a>
+      
+      <div>
+        <input
+          type="email"
+          autocomplete="off"
+          id="email"
+          placeholder="email"
+          class="form-control"
+        />
+        <input
+          type="password"
+          autocomplete="off"
+          id="password"
+          placeholder="password"
+          class="form-control"
+        />
+        <button class="submit-btn">login</button>
+        <a href="signup.html" class="link"
+          >don't have an account? create one
+        </a>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./js/form.js"></script>
+  </body>
+</html>
